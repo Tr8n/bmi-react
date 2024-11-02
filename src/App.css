@@ -1,0 +1,64 @@
+/* Main container for the app */
+html{
+    background-color: gray;
+}
+.main {
+    background-color: lightcoral;
+    border: 4px rgb(1, 1, 1) double solid;
+    font-family: Arial, sans-serif;
+    
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Description paragraph */
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Input sections */
+  .input-section {
+    margin: 20px 0;
+  }
+  
+  /* Slider output text */
+  .slider-output {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Input slider styling */
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the final output section */
+  .output-section {
+    margin: 20px 0;
+    background-color: lightgray;
+    border: 2px solid  black;
+    background-origin: padding-box;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #007bff;
+  }
+  
